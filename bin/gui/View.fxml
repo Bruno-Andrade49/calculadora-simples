@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="32.0" layoutY="40.0" text="Calculadora básica" />
+      <TextField fx:id="txtoperacao" layoutX="144.0" layoutY="126.0" prefHeight="25.0" prefWidth="29.0" />
+      <TextField fx:id="txtNumero1" layoutX="32.0" layoutY="214.0" promptText="1º Numero" />
+      <TextField fx:id="txtNumber2" layoutX="32.0" layoutY="256.0" promptText="2º Numero" />
+      <Button fx:id="btsun" layoutX="204.0" layoutY="207.0" mnemonicParsing="false" onAction="#onbtsuntAction" text="Executar" />
+      <Label layoutX="286.0" layoutY="121.0" prefHeight="17.0" prefWidth="73.0" text="Resultado =" />
+      <Label fx:id="labelResult" layoutX="358.0" layoutY="121.0" prefHeight="17.0" prefWidth="29.0" />
+      <Label layoutX="32.0" layoutY="66.0" text="Escolha a operação" />
+      <Label layoutX="32.0" layoutY="104.0" prefHeight="17.0" prefWidth="102.0" text="1 - Subtração" />
+      <Label layoutX="32.0" layoutY="121.0" text="2 - Adição" />
+      <Label layoutX="32.0" layoutY="138.0" text="3 - Multiplicação" />
+      <Label layoutX="32.0" layoutY="155.0" text="4 - Divisão" />
+      <Label layoutX="102.0" layoutY="183.0" text="||" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="286.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Área%20de%20Trabalho/pagamento-de-contas-e-preciso-calcular-as-despesas--213885.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
